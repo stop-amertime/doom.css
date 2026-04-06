@@ -1,0 +1,6 @@
+[submodule "doom8088/src"]
+	path = doom8088/src
+	url = https://github.com/FrenkelS/Doom8088.git
+[submodule "x86css/upstream"]
+	path = x86css/upstream
+	url = https://github.com/rebane2001/x86CSS.git

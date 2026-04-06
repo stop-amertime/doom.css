@@ -3,6 +3,9 @@ doom8088/build/
 *.o
 *.com
 *.exe
+build/doom_disasm.txt
+
+# Upstream x86CSS repo is tracked as a submodule
 
 # Generated CSS (too large to commit)
 web/doom-x86css.html
