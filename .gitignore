@@ -1,0 +1,28 @@
+# Build outputs
+doom8088/build/
+*.o
+*.com
+*.exe
+
+# Generated CSS (too large to commit)
+web/doom-x86css.html
+web/*.css
+
+# WAD files (user-supplied, not redistributable)
+*.wad
+*.WAD
+DOOM16DT.WAD
+DOOM1.WAD
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
