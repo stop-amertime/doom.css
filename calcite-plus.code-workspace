@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../calcite"
+		},
+		{
+			"path": "../i8086-css"
+		}
+	],
+	"settings": {}
+}
