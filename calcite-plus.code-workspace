@@ -7,8 +7,10 @@
 			"path": "../calcite"
 		},
 		{
-			"path": "../i8086-css"
+			"path": "../CSS-DOS"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "calcite"
+	}
 }
