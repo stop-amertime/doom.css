@@ -1,13 +1,16 @@
 {
 	"folders": [
 		{
-			"path": "."
-		},
-		{
+			"name": "calcite",
 			"path": "../calcite"
 		},
 		{
+			"name": "CSS-DOS",
 			"path": "../CSS-DOS"
+		},
+		{
+			"name": "doom.css",
+			"path": "."
 		}
 	],
 	"settings": {

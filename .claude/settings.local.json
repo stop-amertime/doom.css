@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/AdmT9N0CX01V65438A/Documents/src/calcite/**)",
+      "Bash(node tools/ref-dos.mjs --ticks=50000 --int-trace-from=0)",
+      "Bash(node transpiler/generate-hacky.mjs --help)",
+      "Bash(cat /c/Users/AdmT9N0CX01V65438A/Documents/src/calcite/crates/calcite-core/benches/*.rs)",
+      "Bash(cargo run:*)"
+    ]
+  }
+}

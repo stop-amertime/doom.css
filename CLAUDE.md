@@ -1,11 +1,10 @@
 # doom.css
 
-Doom running in pure CSS, powered by calc(ify). Compiles Doom8088 (a 16-bit
-Doom port) to 8086 machine code, embeds it in CSS via x86CSS's build pipeline,
-and runs it through the calc(ify) compute engine at playable speed.
+Doom8088 (8086 port of DOOM) files, mainly, plus some other files kicking around. Includes other repos. 
 
-Sister project to [calcify](../calcify/) — they share a spec
-(`css-compute-engine-spec-v2-1.md`). calcify is the engine, doom.css is the demo.
+Besides this repo should be other repos - calcite and css-dos, which contain most of the actual work. 
+
+USER: I think this docs is pretty out of date honestly. 
 
 ## Project Layout
 
@@ -15,14 +14,10 @@ doom8088/
 
 x86css/
   upstream/         x86CSS upstream (git submodule: rebane2001/x86CSS)
-  instructions/     New instruction implementations for Doom
 
 build/
   Dockerfile        gcc-ia16 build environment
   build.sh          Docker-wrapped build script
-  build_css.py      CSS generator (copied from x86CSS, to be extended)
-
-web/                Browser frontend — doom-x86css.html, display renderer
 
 tools/
   instruction_gap.py    Analyze which instructions are implemented in x86CSS
@@ -33,7 +28,7 @@ tools/
 
 - Docker — for gcc-ia16 build environment (or native gcc-ia16)
 - Python 3 — for build_css.py and tools
-- calc(ify) — the compute engine (sister repo, required to actually run it)
+- calc(ite) — the compute engine (sister repo, required to actually run it)
 - DOOM1.WAD — shareware Doom WAD (not included, user-supplied)
 - jWadUtil — converts DOOM1.WAD to DOOM16DT.WAD for text mode
 
